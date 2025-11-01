@@ -3,6 +3,17 @@
 
 }
 
+
+::-webkit-scrollbar {
+   width: 1em;
+   background-color: #dfd6d6;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: #6610F2;
+   border-radius: 1em;
+}
+
 .top-bar{
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -39,3 +50,39 @@
     .slider_nav{
     max-height: 350px;
 }}
+
+.img-wrap {
+    position: relative;
+    padding: 1rem;
+}
+
+.img-wrap .badge{
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+
+.info-wrap {
+    padding: 0.5rem 0.5rem;
+}
+
+.info-wrap .title{
+    display: block;
+    text-decoration: none;
+    color: #51585e;
+}
+
+.price-wrap .price-discount {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color : #198754;
+}
+.price-wrap .price {
+    color : #51585e;
+}
+
+.info-wrap-color{
+    background-color: #baf7da;
+    border-radius: 0.7rem;
+    padding: 1rem;
+}
