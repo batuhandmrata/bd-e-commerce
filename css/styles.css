@@ -86,3 +86,15 @@
     border-radius: 0.7rem;
     padding: 1rem;
 }
+
+.img-wrap{
+    height: 240px;
+    text-align: center;
+}
+
+.img-wrap img{
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
