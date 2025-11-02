@@ -98,3 +98,20 @@
     max-width: 100%;
     object-fit: cover;
 }
+
+.breadcrumb a {
+    color : #fff;
+    opacity: .5;
+}
+
+.breadcrumb .breadcrumb-item {
+    color: #fff;
+}
+
+.breadcrumb-item+.breadcrumb-item::before{
+    color: #fff;
+}
+
+.breadcrumb a:hover {
+    opacity: 1;
+}
