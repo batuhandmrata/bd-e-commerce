@@ -153,3 +153,7 @@
 .checked {
   color: orange;
 }
+
+.text-color{
+    color: var(--primary);
+}
