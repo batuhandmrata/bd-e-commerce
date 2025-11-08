@@ -12,7 +12,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Kategori</title>
+    <title>Ürünler</title>
   </head>
   <body>
     <header>
@@ -42,10 +42,10 @@
             ></div>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a href="kategori.html" class="nav-link active">Kategori</a>
+                <a href="kategori.html" class="nav-link">Kategori</a>
               </li>
               <li class="nav-item">
-                <a href="urun.html" class="nav-link">Ürün</a>
+                <a href="urun.html" class="nav-link active">Ürün</a>
               </li>
               <li class="nav-item">
                 <a href="slider.html" class="nav-link">Slider</a>
@@ -91,127 +91,143 @@
         <div class="col">
           <div class="card shadow">
             <div
-              class="card-header py-1 d-flex justify-content-between align-items-center"
+              class="card-header py-1 d-flex justify-content-between align-items-center "
             >
-              <h5 class="card-title">Kategoriler</h5>
-              <a href="kategori-ekle.html" class="btn btn-sm btn-primary">
+              <h5 class="card-title mt-2">Ürünler</h5>
+              <a href="urun-ekle.html" class="btn btn-sm btn-primary">
                 <i class="fa-solid fa-plus"></i>
               </a>
             </div>
             <div class="card-body">
               <div class="table-responsive">
                 <table
-                  class="table table-bordered table-striped mb-0 text-center"
+                  class="table table-hover table-bordered table-striped mb-0 text-center"
                 >
                   <thead class="table-secondary">
                     <tr>
-                      <th>Id</th>
-                      <th>Kategori Adı</th>
-                      <th>URL</th>
-                      <th>Ürün Sayısı</th>
+                      <th style="width: 20px;">Id</th>
+                      <th style="width: 80px;">Resim</th>
+                      <th>Ürün Adı</th>
+                      <th>Fiyat</th>
+                      <th>Aktif</th>
+                      <th>Anasayfa</th>
+                      <th>Kategori</th>
                       <th style="width: 90px"></th>
                     </tr>
                   </thead>
-                  <tbody>
+                  <tbody class="align-middle">
                     <tr>
                       <td>1</td>
-                      <td>Telefon</td>
-                      <td>telefon</td>
-                      <td>14</td>
+                      <td>
+                        <img src="../img/1.jpeg" alt="" class="img-fluid">
+                      </td>
+                      <td>Apple Watch Series 10</td>
+                      <td>40.000 ₺</td>
+                      <td>
+                        <i class="fa-solid fa-circle-check text-success"></i>
+                      </td>
+                      <td>
+                        <i class="fa-solid fa-circle-xmark text-danger"></i>
+                      </td>
+                      <td>Saat</td>
                       <td>
                         <a
                           href="kategori-ekle.html"
                           class="btn btn-primary btn-sm"
                         >
                           <i class="fa-solid fa-pen-to-square"></i>
-                        </a>
-                        <a href="urun.html" class="btn btn-primary btn-sm">
-                          <i class="fa-solid fa-right-long"></i>
                         </a>
                       </td>
                     </tr>
                     <tr>
                       <td>2</td>
-                      <td>Beyaz Eşya</td>
-                      <td>beyaz-esya</td>
-                      <td>48</td>
+                      <td>
+                        <img src="../img/2.jpeg" alt="" class="img-fluid">
+                      </td>
+                      <td>Apple Watch Series 10</td>
+                      <td>40.000 ₺</td>
+                      <td>
+                        <i class="fa-solid fa-circle-check text-success"></i>
+                      </td>
+                      <td>
+                        <i class="fa-solid fa-circle-xmark text-danger"></i>
+                      </td>
+                      <td>Saat</td>
                       <td>
                         <a
                           href="kategori-ekle.html"
                           class="btn btn-primary btn-sm"
                         >
                           <i class="fa-solid fa-pen-to-square"></i>
-                        </a>
-                        <a href="urun.html" class="btn btn-primary btn-sm">
-                          <i class="fa-solid fa-right-long"></i>
                         </a>
                       </td>
                     </tr>
                     <tr>
                       <td>3</td>
-                      <td>Giyim</td>
-                      <td>giyim</td>
-                      <td>5</td>
+                      <td>
+                        <img src="../img/3.jpeg" alt="" class="img-fluid">
+                      </td>
+                      <td>Apple Watch Series 10</td>
+                      <td>40.000 ₺</td>
+                      <td>
+                        <i class="fa-solid fa-circle-check text-success"></i>
+                      </td>
+                      <td>
+                        <i class="fa-solid fa-circle-xmark text-danger"></i>
+                      </td>
+                      <td>Saat</td>
                       <td>
                         <a
                           href="kategori-ekle.html"
                           class="btn btn-primary btn-sm"
                         >
                           <i class="fa-solid fa-pen-to-square"></i>
-                        </a>
-                        <a href="urun.html" class="btn btn-primary btn-sm">
-                          <i class="fa-solid fa-right-long"></i>
                         </a>
                       </td>
                     </tr>
                     <tr>
                       <td>4</td>
-                      <td>Pet Ürünleri</td>
-                      <td>pet-urun</td>
-                      <td>359</td>
+                      <td>
+                        <img src="../img/4.jpeg" alt="" class="img-fluid">
+                      </td>
+                      <td>Apple Watch Series 10</td>
+                      <td>40.000 ₺</td>
+                      <td>
+                        <i class="fa-solid fa-circle-check text-success"></i>
+                      </td>
+                      <td>
+                        <i class="fa-solid fa-circle-xmark text-danger"></i>
+                      </td>
+                      <td>Saat</td>
                       <td>
                         <a
                           href="kategori-ekle.html"
                           class="btn btn-primary btn-sm"
                         >
                           <i class="fa-solid fa-pen-to-square"></i>
-                        </a>
-                        <a href="urun.html" class="btn btn-primary btn-sm">
-                          <i class="fa-solid fa-right-long"></i>
                         </a>
                       </td>
                     </tr>
                     <tr>
                       <td>5</td>
-                      <td>Elektronik</td>
-                      <td>elektronik</td>
-                      <td>72</td>
                       <td>
-                        <a
-                          href="kategori-ekle.html"
-                          class="btn btn-primary btn-sm"
-                        >
-                          <i class="fa-solid fa-pen-to-square"></i>
-                        </a>
-                        <a href="urun.html" class="btn btn-primary btn-sm">
-                          <i class="fa-solid fa-right-long"></i>
-                        </a>
+                        <img src="../img/5.jpeg" alt="" class="img-fluid">
                       </td>
-                    </tr>
-                    <tr>
-                      <td>6</td>
-                      <td>Yazılım</td>
-                      <td>yazilim</td>
-                      <td>112</td>
+                      <td>Apple Watch Series 10</td>
+                      <td>40.000 ₺</td>
+                      <td>
+                        <i class="fa-solid fa-circle-check text-success"></i>
+                      </td>
+                      <td>
+                        <i class="fa-solid fa-circle-xmark text-danger"></i>
+                      </td>
+                      <td>Saat</td>
                       <td>
                         <a
                           href="kategori-ekle.html"
                           class="btn btn-primary btn-sm"
                         >
                           <i class="fa-solid fa-pen-to-square"></i>
-                        </a>
-                        <a href="urun.html" class="btn btn-primary btn-sm">
-                          <i class="fa-solid fa-right-long"></i>
                         </a>
                       </td>
                     </tr>

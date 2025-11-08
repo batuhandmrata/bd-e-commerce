@@ -12,7 +12,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Kategori Ekle</title>
+    <title>Ürün Ekle</title>
   </head>
   <body>
     <header>
@@ -42,10 +42,10 @@
             ></div>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a href="kategori.html" class="nav-link active">Kategori</a>
+                <a href="kategori.html" class="nav-link">Kategori</a>
               </li>
               <li class="nav-item">
-                <a href="urun.html" class="nav-link">Ürün</a>
+                <a href="urun.html" class="nav-link active">Ürün</a>
               </li>
               <li class="nav-item">
                 <a href="slider.html" class="nav-link">Slider</a>
@@ -88,32 +88,69 @@
 
     <main class="container my-3">
       <div class="row">
-        <div class="col">
+        <div class="col-md-9">
           <div class="card shadow">
             <div
-              class="card-header py-1 d-flex justify-content-between align-items-center"
+              class="card-header py-1 d-flex justify-content-between align-items-center "
             >
-              <h5 class="card-title mt-2">Kategori Ekle</h5>
-              <a href="kategori.html" class="btn btn-sm btn-primary">
+              <h5 class="card-title mt-2">Ürün Ekle</h5>
+              <a href="urun-ekle.html" class="btn btn-sm btn-primary">
                 <i class="fa-solid fa-list"></i>
               </a>
             </div>
             <div class="card-body">
               <form>
                 <div class="row mb-3">
-                  <label for="kategoriAdi" class="col-sm-2 col-form-label"
-                    >Kategori Adı</label
+                  <label for="UrunAdi" class="col-sm-2 col-form-label"
+                    >Ürün Adı</label
                   >
                   <div class="col-sm-10">
-                    <input type="text" id="kategoriAdi" class="form-control" />
+                    <input type="text" id="UrunAdi" class="form-control" />
                   </div>
                 </div>
                 <div class="row mb-3">
-                  <label for="kategoriUrl" class="col-sm-2 col-form-label"
-                    >URL</label
+                    <label for="UrunAciklama" class="col-sm-2 col-form-label"
+                      >Ürün Açıklama</label
+                    >
+                    <div class="col-sm-10">
+                      <textarea name="" id="UrunAciklama" rows="3" class="form-control" placeholder="Açıklama Yazınız..."></textarea>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                      <label for="UrunFiyat" class="col-sm-2 col-form-label"
+                        >Fiyat</label
+                      >
+                      <div class="col-sm-10">
+                        <input type="text" id="UrunFiyat" class="form-control" />
+                      </div>
+                </div>
+                <div class="row mb-3">
+                      <label for="UrunAktif" class="col-sm-2 col-form-label"
+                        >Aktif</label
+                      >
+                      <div class="col-sm-10">
+                        <input type="checkbox" id="UrunAktif" class="form-check-input" />
+                      </div>
+                  </div>
+                <div class="row mb-3">
+                  <label for="UrunAnasayfa" class="col-sm-2 col-form-label"
+                    >Anasayfa</label
                   >
                   <div class="col-sm-10">
-                    <input type="text" id="kategoriUrl" class="form-control" />
+                    <input type="checkbox" id="UrunAnasayfa" class="form-check-input" />
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="UrunKategori" class="col-sm-2 col-form-label"
+                    >Kategori</label
+                  >
+                  <div class="col-sm-10">
+                    <select class="form-select">
+                      <option value="">Seçiniz</option>
+                      <option value="">Bilgisayar</option>
+                      <option value="">Saat</option>
+                      <option value="">Beyaz Eşya</option>
+                    </select>
                   </div>
                 </div>
                 <div class="row mb-3">
@@ -124,6 +161,14 @@
                   </div>
                 </div>
               </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card shadow">
+            <div class="card-body">
+              <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/file-earmark-plus.svg" alt="" class="img-thumbnail" style="width: 100%;">
+              <input type="file" class="form-control mt-3">
             </div>
           </div>
         </div>
