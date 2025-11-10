@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Kullanıcılar</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar bg-dark border-bottom border-body navbar-expand-lg"
+        data-bs-theme="dark"
+      >
+        <div class="container">
+          <a
+            href="index.html"
+            class="navbar-brand border-bottom-none border-bottom-lg"
+            >Admin Panel</a
+          >
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <div
+              class="vr bg-secondary me-3 d-none d-lg-block"
+              style="width: 2px"
+            ></div>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="kategori.html" class="nav-link">Kategori</a>
+              </li>
+              <li class="nav-item">
+                <a href="urun.html" class="nav-link">Ürün</a>
+              </li>
+              <li class="nav-item">
+                <a href="slider.html" class="nav-link">Slider</a>
+              </li>
+              <li class="nav-item">
+                <a href="role.html" class="nav-link">Role</a>
+              </li>
+              <li class="nav-item">
+                <a href="kullanici.html" class="nav-link active">Kullanıcı</a>
+              </li>
+              <li class="nav-item">
+                <a href="siparis.html" class="nav-link">Sipariş</a>
+              </li>
+            </ul>
+            <div class="border-top border-secondary"></div>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  >Batuhan Demirata</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item">Hesabım</a></li>
+                  <li><a href="#" class="dropdown-item">Çıkış</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="login.html" class="nav-link">Giriş</a>
+              </li>
+              <li class="nav-item">
+                <a href="register.html" class="nav-link">Hesap Oluştur</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container my-3">
+      <div class="row">
+        <div class="col">
+          <div class="card shadow">
+            <div
+              class="card-header py-1 d-flex justify-content-between align-items-center"
+            >
+              <h5 class="card-title mt-2">Kullanıcılar</h5>
+              <a href="kullanici-ekle.html" class="btn btn-sm btn-primary">
+                <i class="fa-solid fa-plus"></i>
+              </a>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table
+                  class="table table-hover table-bordered table-striped mb-0 text-center"
+                >
+                  <thead class="table-secondary">
+                    <tr>
+                      <th style="width: 20px">Id</th>
+                      <th style="width: 50px">Resim</th>
+                      <th>Username</th>
+                      <th>Ad Soyad</th>
+                      <th>E-mail</th>
+                      <th>Onay</th>
+                      <th style="width: 90px"></th>
+                    </tr>
+                  </thead>
+                  <tbody class="align-middle">
+                    <tr>
+                      <td>1</td>
+                      <td>
+                        <img src="../img/user.png" alt="" class="img-fluid" />
+                      </td>
+                      <td>
+                        <a href="#">BatuhanDmrata</a>
+                      </td>
+                      <td>Batuhan DEMİRATA</td>
+                      <td>batuhandmrata@hotmail.com</td>
+                      <td>
+                        <i class="fa-solid fa-circle-check text-success"></i>
+                      </td>
+                      <td>
+                        <a
+                          href="kullanici-ekle.html"
+                          class="btn btn-primary btn-sm"
+                        >
+                          <i class="fa-solid fa-pen-to-square"></i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>
+                        <img src="../img/user.png" alt="" class="img-fluid" />
+                      </td>
+                      <td>
+                        <a href="#">AnthonyDwreck</a>
+                      </td>
+                      <td>Anthony Dewreck</td>
+                      <td>Anthony@hotmail.com</td>
+                      <td>
+                        <i class="fa-solid fa-circle-check text-success"></i>
+                      </td>
+                      <td>
+                        <a
+                          href="kullanici-ekle.html"
+                          class="btn btn-primary btn-sm"
+                        >
+                          <i class="fa-solid fa-pen-to-square"></i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>
+                        <img src="../img/user.png" alt="" class="img-fluid" />
+                      </td>
+                      <td>
+                        <a href="#">Danielle_92</a>
+                      </td>
+                      <td>Danielle Grambele_92</td>
+                      <td>Grambele_92@hotmail.com</td>
+                      <td>
+                        <i class="fa-solid fa-circle-check text-success"></i>
+                      </td>
+                      <td>
+                        <a
+                          href="kullanici-ekle.html"
+                          class="btn btn-primary btn-sm"
+                        >
+                          <i class="fa-solid fa-pen-to-square"></i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>
+                        <img src="../img/user.png" alt="" class="img-fluid" />
+                      </td>
+                      <td>
+                        <a href="#">MomoWong</a>
+                      </td>
+                      <td>Elena Fasil</td>
+                      <td>Fasil@hotmail.com</td>
+                      <td>
+                        <i class="fa-solid fa-circle-check text-success"></i>
+                      </td>
+                      <td>
+                        <a
+                          href="kullanici-ekle.html"
+                          class="btn btn-primary btn-sm"
+                        >
+                          <i class="fa-solid fa-pen-to-square"></i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>
+                        <img src="../img/user.png" alt="" class="img-fluid" />
+                      </td>
+                      <td>
+                        <a href="#">HakunaMatataHannah</a>
+                      </td>
+                      <td>Matata Hannah</td>
+                      <td>Matata@hotmail.com</td>
+                      <td>
+                        <i class="fa-solid fa-circle-xmark text-danger"></i>
+                      </td>
+                      <td>
+                        <a
+                          href="kullanici-ekle.html"
+                          class="btn btn-primary btn-sm"
+                        >
+                          <i class="fa-solid fa-pen-to-square"></i>
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
